@@ -7,6 +7,7 @@ npm run build-ts only compiles the application
 npm run serve (npm run start) only starts the application
 
 References
+
 https://libraries.io/npm/typeorm , 
 https://github.com/typeorm/typeorm/blob/master/docs/logging.md
 https://github.com/typeorm/typeorm/blob/master/docs/entities.md#column-types,
@@ -20,6 +21,7 @@ https://www.npmjs.com/package/loadtest
 Make scripts executable with chmod +x script_path
 
 Setup With Docker
+
 Run <- ./bin/start_disposable.sh -> to start your containers
 
 Then run <- npm run serve -> within the container
